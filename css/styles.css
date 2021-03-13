@@ -1,3 +1,4 @@
+/*******************TAG SELECTOR******************/
 body {
 	background-color: #eeeeee;
 }
@@ -11,5 +12,10 @@ h1{
   color: #222831;
 }
 h3{
-  color: #393e46;
+  /*color: #393e46;*/
+	color: #00adb5;
+}
+/*******************CLASS SELECTOR******************/
+.myPhoto{
+	border-radius: 100%;
 }
