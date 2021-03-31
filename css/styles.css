@@ -1,21 +1,46 @@
-/*******************TAG SELECTOR******************/
-body {
-	background-color: #eeeeee;
-}
-hr{
-	border-style: dotted none none none;
-	border-color: #00adb5;
-	border-width: 5px;
-	width: 5%;
+/**TAG SELECTOR**/
+body{
+  margin: 0 10px;
+  text-align:center;
+  font-family: "Merriweather", serif;
 }
 h1{
-  color: #222831;
+  margin-top: 0;
+  color: yellow;
+  width: 15%;
+  margin: 0 auto;
+  font-family: "Sacramento", cursive;
+}
+h2{
+  font-family: "Montserrat", sans-serif;
 }
 h3{
-  /*color: #393e46;*/
-	color: #00adb5;
+  font-family: "Montserrat", sans-serif;
 }
-/*******************CLASS SELECTOR******************/
-.myPhoto{
-	border-radius: 100%;
+/**CLASS SELECTOR**/
+.top-container{
+  background-color: #48426d;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container{
+
+}
+.bottom-container{
+
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+/**ID SELECTOR**/
+#prof{
+  color: white;
 }
